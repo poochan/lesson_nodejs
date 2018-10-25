@@ -9,3 +9,15 @@ Node.js ใช้ Google V8 JavaScript Engine
 - เป็น Single-thread ใช้ CPU เดียว
 - ไม่เหมาะกับ CPU-Intensive task **แก้ด้วย cluster module
 - Callback Hell ** แก้ด้วย promiss
+
+## Closure
+Closure คือฟังก์ชั่นที่รวมถึง Environment ของ parent
+
+## Node module
+- เพื่อ encapsulate โค้ด
+- เพื่อ reuse โค้ด
+- เพื่อป้องกันชื่อตัวแปรชนกันจากหลายไฟล์
++ ใช้มาตรฐาน CommonJS ในการสร้าง module
+    - require()
+    - exports
+    - module.exports
